@@ -18,20 +18,20 @@
         android:textSize="50sp"
         android:textStyle="bold" />
 
-
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="155dp"
-        app:srcCompat="@drawable/honeycomb" />
+        app:srcCompat="@drawable/amperes" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="197dp"
-        android:layout_weight="0"
         android:layout_gravity="bottom"
-        android:textSize="80sp"
-        android:text="@string/Next" />
+        android:layout_weight="0"
+        android:onClick="Send"
+        android:text="Next"
+        android:textSize="80sp" />
 
 
 </LinearLayout>

@@ -3,8 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Androidplus/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Androidplus/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.147" />
+        <entry key="..\:/Sample/app/src/main/res/layout/activity_main.xml" value="0.21784420289855072" />
+        <entry key="..\:/Sample/app/src/main/res/layout/activity_main2.xml" value="0.21784420289855072" />
+        <entry key="..\:/Sample/app/src/main/res/layout/activity_main3.xml" value="0.21784420289855072" />
+        <entry key="..\:/Sample/app/src/main/res/layout/fragment_blank.xml" value="0.21784420289855072" />
       </map>
     </option>
   </component>
