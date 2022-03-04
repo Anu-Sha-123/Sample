@@ -13,7 +13,7 @@
         android:layout_marginTop="5dp"
         android:layout_marginBottom="5dp"
         android:layout_weight="0"
-        android:background="@color/purple_700"
+        android:background="@color/purple_500"
         android:gravity="top|center"
         android:text="@string/Wel" android:textColor="#FFEB3B"
         android:textSize="50sp"
@@ -22,17 +22,22 @@
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="155dp"
-        app:srcCompat="@drawable/honeycomb" />
+        android:layout_height="254dp"
+        app:srcCompat="@drawable/amperes"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/teal_200"
+        android:contentDescription="@string/Res" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="match_parent"
-        android:layout_height="197dp"
-        android:layout_weight="0"
+        android:layout_height="match_parent"
         android:layout_gravity="bottom"
-        android:textSize="80sp"
-        android:text="@string/Next" />
+        android:layout_weight="20"
+        android:text="@string/Next"
+        android:textSize="40sp" />
+
+
 
 
 </LinearLayout>
