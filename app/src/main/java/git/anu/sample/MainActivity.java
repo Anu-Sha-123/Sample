@@ -9,11 +9,6 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    public void Send(View view){
-        Intent i=new Intent(MainActivity.this,MainActivity2.class);
-        MainActivity.this.startActivity(i);
-    }
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,4 +18,8 @@ public class MainActivity extends AppCompatActivity {
 
         }
 
+    public void next(View view) {
+        Intent i=new Intent(MainActivity.this,MainActivity2.class);
+        MainActivity.this.startActivity(i);
     }
+}

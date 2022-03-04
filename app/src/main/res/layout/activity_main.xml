@@ -21,7 +21,7 @@
 
 
     <ImageView
-        android:layout_width="match_parent"
+        android:layout_width="427dp"
         android:layout_height="254dp"
         android:layout_gravity="center_horizontal"
         android:background="@color/teal_200"
@@ -34,6 +34,8 @@
         android:layout_height="match_parent"
         android:layout_gravity="bottom"
         android:layout_weight="20"
+
+        android:onClick="next"
         android:text="@string/Next"
         android:textSize="40sp" />
 
